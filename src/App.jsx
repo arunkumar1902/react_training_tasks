@@ -2,6 +2,7 @@ import React from 'react'
 import SelfIntro from './selfIntro/SelfIntro'
 import ChildComponent from './child/ChildComponent'
 import './App.css'
+import Counter from './counter/Counter'
 
 export default function App() {
   const user1 = {
@@ -59,14 +60,18 @@ export default function App() {
       {/* <h1>Task 01</h1>
       <SelfIntro></SelfIntro> */}
 
-      <h1>Task 02</h1>
+      {/* <h1>Task 02</h1>
       <div className='cardLayout'>
         <ChildComponent userData={user1}></ChildComponent>
         <ChildComponent userData={user2}></ChildComponent>
         <ChildComponent userData={user3}></ChildComponent>
         <ChildComponent userData={user4}></ChildComponent>
         <ChildComponent userData={user5}></ChildComponent>
-      </div>
+      </div> */}
+
+      <h1>Task 03</h1>
+      <Counter></Counter>
+
     </div>
   )
 }
