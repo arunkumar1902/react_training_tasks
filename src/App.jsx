@@ -1,8 +1,9 @@
 import React from 'react'
-import SelfIntro from './selfIntro/SelfIntro'
-import ChildComponent from './child/ChildComponent'
+import SelfIntro from './components/selfIntro/SelfIntro'
+import ChildComponent from './components/child/ChildComponent'
 import './App.css'
-import Counter from './counter/Counter'
+import Counter from './components/counter/Counter'
+import ConditionalRendering from './components/conditionalRendering/ConditionalRendering'
 
 export default function App() {
   const user1 = {
@@ -69,8 +70,11 @@ export default function App() {
         <ChildComponent userData={user5}></ChildComponent>
       </div> */}
 
-      <h1>Task 03</h1>
-      <Counter></Counter>
+      {/* <h1>Task 03</h1>
+      <Counter></Counter> */}
+
+      {/* <h1>Task 04</h1> */}
+      <ConditionalRendering></ConditionalRendering>
 
     </div>
   )

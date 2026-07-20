@@ -1,0 +1,70 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcomeDiv, .loginStatus{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 30px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px silver;
+    font-size: larger;
+}
+.welcomeDiv button, .loginStatus button{
+    background-color: rgb(5, 126, 136);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.welcomeDiv button:hover, .loginStatus button:hover{
+    background-color: rgb(19, 102, 109);
+}
+
+.list{
+    margin: 30px;
+    width: 80%;
+}
+.list h1{
+    text-align: center;
+    padding: 20px 40px;
+}
+.buttonDiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+.profileCard{
+    padding: 20px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.profileCard ul {
+    list-style: none;
+}
+
+.profileCard li {
+    margin: 12px 0;
+    color: #444;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.profileCard li b {
+    color: #2563eb;
+}
