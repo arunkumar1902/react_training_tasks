@@ -4,6 +4,7 @@ import ChildComponent from './components/child/ChildComponent'
 import './App.css'
 import Counter from './components/counter/Counter'
 import ConditionalRendering from './components/conditionalRendering/ConditionalRendering'
+import RegisterForm from './components/form/RegisterForm'
 
 export default function App() {
   const user1 = {
@@ -73,8 +74,11 @@ export default function App() {
       {/* <h1>Task 03</h1>
       <Counter></Counter> */}
 
-      {/* <h1>Task 04</h1> */}
-      <ConditionalRendering></ConditionalRendering>
+      {/* <h1>Task 04</h1>
+      <ConditionalRendering></ConditionalRendering> */}
+
+      <h1>Task 05</h1>
+      <RegisterForm></RegisterForm>
 
     </div>
   )
