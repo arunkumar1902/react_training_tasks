@@ -1,0 +1,67 @@
+.stopWatchDiv{
+    background-color: rgb(88, 191, 228);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.timeDisplay{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.timeDisplay p{
+    font-size: 30px;
+    color: blue;
+    font-weight: bolder;
+}
+.timeDisplay h1{
+    color: red;
+}
+.buttons{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button{
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+}
+.buttons button:disabled{
+    cursor:auto;
+    background-color: rgb(104, 127, 212);
+}
+
+.buttons button:hover{
+    background-color: darkblue;
+}
+.buttons button:disabled:hover{
+        background-color: rgb(104, 127, 212);
+}
+
+.stopDisplay{
+    background-color: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.stopDisplay h4{
+    background-color: rgb(227, 239, 250);
+    padding: 10px;
+    border-radius: 10px;
+}
