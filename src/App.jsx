@@ -6,6 +6,7 @@ import Counter from './components/counter/Counter'
 import ConditionalRendering from './components/conditionalRendering/ConditionalRendering'
 import RegisterForm from './components/form/RegisterForm'
 import StopWatch from './components/stopwatch/StopWatch'
+import MiniChat from './components/miniChat/MiniChat'
 
 export default function App() {
   const user1 = {
@@ -81,8 +82,11 @@ export default function App() {
       {/* <h1>Task 05</h1>
       <RegisterForm></RegisterForm> */}
 
-      {/* <h1>Task 06 - Stop Watch</h1><br /> */}
-      <StopWatch></StopWatch>
+      {/* <h1>Task 06 - Stop Watch</h1><br />
+      <StopWatch></StopWatch> */}
+
+      <h1>Mini Chat Application</h1>
+      <MiniChat></MiniChat>
 
     </div>
   )
